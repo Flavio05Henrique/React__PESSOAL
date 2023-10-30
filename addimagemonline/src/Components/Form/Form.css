@@ -1,0 +1,8 @@
+.form {
+    width: 50%;
+    margin: 15px auto;
+    background-color: var(--cor1);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.123);
+}

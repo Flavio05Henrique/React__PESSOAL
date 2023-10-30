@@ -1,0 +1,57 @@
+.img_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    position: relative;
+}
+
+.img_card button {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    opacity: 50%;
+    transition: .5s;
+}
+
+.img_card button:hover {
+    opacity: 100%;
+    transition: .5s;
+}
+
+.img_card .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgb(255, 255, 255) url(/public/imgs/close-borderNone.svg) no-repeat center center;
+    background-size: 18px;
+}
+
+.img_card .close:hover {
+    background-color: rgb(216, 41, 41);
+}
+
+.img_card .addTag {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    background: rgb(255, 255, 255) url(/public/imgs/plus.svg) no-repeat center center;
+    background-size: 18px;
+}
+
+.img_card .addTag:hover {
+    background-color: rgb(105, 216, 41);
+}
+
+.img_card img {
+    width: 100% ;
+}

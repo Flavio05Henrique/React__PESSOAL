@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 80%;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: var(--cor2);
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.062);
+}
